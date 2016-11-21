@@ -1,0 +1,16 @@
+### Each directory and file, which starts with dot
+.*
+### But not Git ignore and Travis file
+!.gitignore
+!.travis.yml
+
+### IntelliJ Idea
+#.idea/
+*.iml
+*.ipr
+*.iws
+
+### Eclipse
+.settings/
+.classpath
+.project
