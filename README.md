@@ -11,8 +11,8 @@ It is very easy to run an analysis on a project and push it to SonarQube.com:
   1. Activate the [SonarQube.com Travis Add-on](https://docs.travis-ci.com/user/sonarqube/)
   2. Run `sonar-scanner` at some point of time in the `script` section
 
-  You can take a look at the
-  [sonar-project.properties](https://github.com/SonarSource/sq-com_example_standard-sqscanner-travis/blob/master/sonar-project.properties)
-  and
-  [.travis.yml](https://github.com/SonarSource/sq-com_example_standard-sqscanner-travis/blob/master/.travis.yml)
-  files of this project to see it in practice.
+You can take a look at the
+[sonar-project.properties](https://github.com/SonarSource/sq-com_example_standard-sqscanner-travis/blob/master/sonar-project.properties)
+and
+[.travis.yml](https://github.com/SonarSource/sq-com_example_standard-sqscanner-travis/blob/master/.travis.yml)
+files of this project to see it in practice.
