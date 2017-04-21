@@ -16,3 +16,9 @@ You can take a look at the
 and
 [.travis.yml](https://github.com/SonarSource/sq-com_example_standard-sqscanner-travis/blob/master/.travis.yml)
 files of this project to see it in practice.
+
+### License
+
+Copyright 2008-2016 SonarSource.
+
+Licensed under the [GNU Lesser General Public License, Version 3.0](http://www.gnu.org/licenses/lgpl.txt)
