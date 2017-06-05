@@ -1,14 +1,14 @@
-# Standard SQ-Scanner-based project analyzed on SonarQube.com using Travis
+# Standard SQ-Scanner-based project analyzed on SonarCloud using Travis
 
-[![Build status](https://travis-ci.org/SonarSource/sq-com_example_standard-sqscanner-travis.svg?branch=master)](https://travis-ci.org/SonarSource/sq-com_example_standard-sqscanner-travis) [![Quality Gate](https://sonarqube.com/api/badges/gate?key=com.sonarqube.examples.standard-sqscanner-travis-project)](https://sonarqube.com/dashboard/index/com.sonarqube.examples.standard-sqscanner-travis-project)
+[![Build status](https://travis-ci.org/SonarSource/sq-com_example_standard-sqscanner-travis.svg?branch=master)](https://travis-ci.org/SonarSource/sq-com_example_standard-sqscanner-travis) [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=com.sonarqube.examples.standard-sqscanner-travis-project)](https://sonarcloud.io/dashboard/index/com.sonarqube.examples.standard-sqscanner-travis-project)
 
-#### This project is analysed on [SonarQube.com](https://sonarqube.com)!
+#### This project is analysed on [SonarCloud](https://sonarcloud.io)!
 
-It is very easy to run an analysis on a project and push it to SonarQube.com:
+It is very easy to run an analysis on a project and push it to SonarCloud:
 
 1. Create a `sonar-project.properties` files to store your configuration - like `sonar.projectKey` or `sonar.sources`
 2. In your `.travis.yml` file:
-  1. Activate the [SonarQube.com Travis Add-on](https://docs.travis-ci.com/user/sonarqube/)
+  1. Activate the [Travis Add-on](https://docs.travis-ci.com/user/sonarqube/)
   2. Run `sonar-scanner` at some point of time in the `script` section
 
 You can take a look at the
