@@ -1,5 +1,10 @@
+language: java
 sudo: required
- 
+
+dist: jammy
+
+jdk: openjdk17
+
 addons:
   sonarcloud:
     organization: "sonarcloud"
@@ -8,14 +13,14 @@ addons:
 
 env:
   - NODE_VERSION=16
-  
+
 script:
   - nvm install $NODE_VERSION
   - sonar-scanner
 
 cache:
   directories:
-    - '$HOME/.sonar/cache'
+    - "$HOME/.sonar/cache"
 
 # Don't copy the following part if you are using this project as a starting point of yours
 notifications:
